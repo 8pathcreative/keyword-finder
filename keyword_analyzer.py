@@ -39,11 +39,11 @@ def analyze_keywords(keywords_list, timeframe='today 12-m'):
 def main():
     # Example keywords
     keywords = [
-        "python programming",
-        "learn python",
-        "python tutorial",
-        "python for beginners",
-        "python course"
+        "Chicago Drill",
+        "OTF Clothing",
+        "Chicago Gangs",
+        "OTF Merch",
+        "Lil Durk OTF"
     ]
     
     print("Analyzing keywords...")
