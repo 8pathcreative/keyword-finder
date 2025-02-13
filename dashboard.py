@@ -18,7 +18,7 @@ class KeywordAnalysisDashboard:
             st.header("Settings")
             timeframe = st.selectbox(
                 "Select Timeframe",
-                ["Past 12 months", "Past 30 days", "Past 7 days", "Past 24 hours"],
+                ["Past 12 months", "Past 30 days", "Past 7 days", "Past 12 months", "Past 24 hours", "Past 1 year"],
                 index=0
             )
             
@@ -27,7 +27,8 @@ class KeywordAnalysisDashboard:
                 "Past 12 months": "today 12-m",
                 "Past 30 days": "today 1-m",
                 "Past 7 days": "now 7-d",
-                "Past 24 hours": "now 1-d"
+                "Past 24 hours": "now 1-d",
+                "Past 1 year": "now 1-yr",
             }
             
             # Keyword input
